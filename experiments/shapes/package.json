@@ -1,0 +1,30 @@
+{
+  "name": "shapes",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "aeony build -c",
+    "run": "aeony run -c",
+    "watch": "aeony watch"
+  },
+  "keywords": [],
+  "author": "Jurmerlo",
+  "license": "MIT",
+  "packageManager": "pnpm@10.9.0",
+  "devDependencies": {
+    "@aeony/eslint-config": "^1.0.2",
+    "@aeony/prettier-config": "^1.0.0",
+    "@typescript-to-lua/language-extensions": "^1.19.0",
+    "eslint": "^9.26.0",
+    "love-typescript-definitions": "^11.5.0",
+    "lua-types": "^2.13.1",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3",
+    "typescript-to-lua": "^1.31.0"
+  },
+  "dependencies": {
+    "@aeony/aeony": "link:../../../aeony",
+    "@aeony/aeony-cli": "link:../../../aeony-cli"
+  }
+}

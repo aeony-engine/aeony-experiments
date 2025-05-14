@@ -1,0 +1,12 @@
+
+noAtlas = true
+bundle = true
+liveReload = true
+watchPaths = ["src", "assets", "aeony.toml"]
+
+[love.window]
+title = "Aeony Shapes"
+width = 400
+height = 300
+x = 0
+y = 0

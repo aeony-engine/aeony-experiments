@@ -1,0 +1,3 @@
+overrides:
+  '@aeony/aeony': link:../../../aeony
+  '@aeony/aeony-cli': link:../../../aeony-cli
