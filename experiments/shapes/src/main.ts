@@ -7,4 +7,4 @@ if (os.getenv('LOCAL_LUA_DEBUGGER_VSCODE') === '1') {
   require('lldebugger').start();
 }
 
-new Aeony({ designWidth: 400, designHeight: 300, startScene: GameScene });
+new Aeony({ designWidth: 400, designHeight: 300, startScene: GameScene, debug: true });

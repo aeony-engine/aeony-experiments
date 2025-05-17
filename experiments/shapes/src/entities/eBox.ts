@@ -15,8 +15,8 @@ export class EBox extends Entity {
 
     this.transform = new CTransform({ x, y });
 
-    const boxColor = new Color(0.9, 0.4, 0.0);
-    this.boxShape = new CBoxShape({ size: { width: 100, height: 60 }, color: boxColor });
+    const boxColor = new Color(0.0, 0.4, 0.1);
+    this.boxShape = new CBoxShape({ size: { width: 60, height: 60 }, color: boxColor });
     this.velocity = new CVelocity();
   }
 
